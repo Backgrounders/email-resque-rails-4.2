@@ -37,7 +37,7 @@ Next add the Resque gems to your `Gemfile` and `bundle install`:
 ```ruby
 gem 'resque'
 gem 'resque-scheduler'
-````
+```
 ```console
 $ bundle install
 ```
@@ -64,7 +64,7 @@ config.action_mailer.smtp_settings = {
 Now we need to generate the user mailer:
 
 ```console
-rails generate mailer UserMailer
+$ rails generate mailer UserMailer
 ```
 
 In the generated file (`app/mailers/user_mailer.rb`), add any defaults you wish along with your message to yourself from your users:
